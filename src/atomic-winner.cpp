@@ -1,9 +1,8 @@
-
-// constructing atomics
-#include <iostream>       // std::cout
-#include <atomic>         // std::atomic, std::atomic_flag, ATOMIC_FLAG_INIT
-#include <thread>         // std::thread, std::this_thread::yield
-#include <vector>         // std::vector
+#include <iostream>
+#include <atomic>
+#include <thread>
+#include <vector>
+#include <future>
 
 
 std::atomic<bool> fire(false);
@@ -11,12 +10,8 @@ std::atomic<bool> fire(false);
 std::atomic_flag winner = ATOMIC_FLAG_INIT;
 
 
-// using tci_t = std::pair<int, int>;
-// std::atomic<tci_t> atci;
-
-
 template <typename T>
-T mystery(const T id)
+[[nodiscard]] T mystery(const T id)
 {
 	while (not fire)
 		std::this_thread::yield();
@@ -30,30 +25,33 @@ T mystery(const T id)
 		return id;
 	}
 	return -1;
-};
+}
 
 
 template <typename D>
 void wizard(const size_t N)
 {
 	std::vector<std::future<D>> threads;
+	threads.reserve(N);
 	std::cout << "spawning 10 threads that count to 1 million..." << std::endl;
 
-	for (int i = 0; i < N; i++)
-	{
-		threads.push_back(std::thread(mystery, i));
-	}
+	for (D i = 0; i < N; i++)
+		threads.emplace_back(std::async(std::launch::deferred, [i] () { return mystery(i);}));
 
 	fire = true;
 
 	for (auto & th : threads)
 	{
-		th.join();
+		std::cout << "Got " << th.get() << std::endl;
 	}
 }
 
 
+/**
+ * <-- What's the purpose of mystery program ? -->
+ */
 int main()
 {
-	return wizard<int>(10);
+	wizard<int>(10);
+	return 0;
 }

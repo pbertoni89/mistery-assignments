@@ -6,16 +6,16 @@
 
 
 template <typename D>
-struct Mistery
+struct Mystery
 {
 	D d;
-	struct Mistery * l, * r;
+	struct Mystery * l, * r;
 
-	explicit Mistery(const D & _d) :
+	explicit Mystery(const D & _d) :
 		d(_d), l(nullptr), r(nullptr)
 	{}
 
-	decltype(auto) wizard(const D & x) const
+	[[nodiscard]] decltype(auto) wizard(const D & x) const
 	{
 		auto rv = (d == x);
 		if (rv)
@@ -30,11 +30,11 @@ struct Mistery
 
 
 /**
- * <-- What does main do? -->
+ * <-- What's the purpose of mystery program ? -->
  */
 int main(int argc, char ** argv)
 {
-	using MagicUint = Mistery<unsigned int>;
+	using MagicUint = Mystery<unsigned int>;
 
 	auto hello_world = new MagicUint(1);
 
