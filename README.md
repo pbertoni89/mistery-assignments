@@ -1,2 +1,2 @@
-# mistery-assignments
-These are some obfuscated code samples I often use during interviews.
+This are some obfuscated code exercises I use during interviews.
+This file is a work in progress!
