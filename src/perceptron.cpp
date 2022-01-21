@@ -59,14 +59,14 @@ int main()
 
 	std::vector<float> test1;
 	test1.push_back(5.0);
-	test1.push_back(3.3);
-	test1.push_back(1.4);
+	test1.push_back(3.3); test1.push_back(1.4);
 	test1.push_back(0.2);
 
 	Mystery<decltype(y)::value_type, uint64_t> master_chef(0.1, 14);
 	master_chef.cook(X, y);
 
-	std::cout << "mama " << master_chef.alakazam(test1) << "\nnon-mama " << master_chef.alakazam({-6.0, 2.2, -5.0, 1.5}) << std::endl;
+	std::cout << "mama " << master_chef.alakazam(test1)
+		<< "\nnon-mama " << master_chef.alakazam({-6.0, 2.2, -5.0, 1.5}) << std::endl;
 
 	return 0;
 }
