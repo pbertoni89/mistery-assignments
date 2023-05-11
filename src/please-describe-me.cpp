@@ -1,3 +1,5 @@
+// https://codereview.stackexchange.com/questions/201106/
+
 #include <iostream>
 #include <atomic>
 #include <mutex>
@@ -30,7 +32,7 @@ tc_t mystery(T * p)
 	
 		if (input > cache.first + 1)
 		{
-			throw std::runtime_error("cache fault");
+			throw std::runtime_error("fault at " + ss.str());
 		}
 		
 		if (cache.first == BANG and input < cache.first)
@@ -76,8 +78,7 @@ int main(int argc, char ** argv)
 
 	for (recv_t u = 0; u < 255; u ++)
 	{
-		v.emplace_back(u,
-					   std::async(std::launch::async, [u] () { return mystery(u); }));
+		v.emplace_back(u, std::async(std::launch::async, [u] () { return mystery(u); }));
 	}
 
 	for (auto & p : v)

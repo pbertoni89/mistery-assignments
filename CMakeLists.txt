@@ -9,6 +9,8 @@ add_executable (monte-carlo src/monte-carlo.cpp)
 
 add_executable (tree-search src/tree-search.cpp)
 
+add_executable (please-describe-me src/please-describe-me.cpp)
+
 add_executable (atomic-winner src/atomic-winner.cpp)
 
 target_link_libraries (atomic-winner PRIVATE pthread)
