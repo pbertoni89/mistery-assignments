@@ -1,4 +1,11 @@
-// https://codereview.stackexchange.com/questions/201106/
+/*
+ * Author: Patrizio Bertoni patrizio.bertoni.89@gmail.com
+ * This file is intended for assestment purposes, and had been forked from
+ * https://github.com/pbertoni89/mystery-assignments.
+ * You should receive a copy of this, either as a pdf or raw text.
+ * In no way this content shall suggest you the "mistery" behind the code.
+ * Good luck!
+ */
 
 #include <iostream>
 #include <atomic>
@@ -6,7 +13,6 @@
 #include <future>
 #include <vector>
 #include <sstream>
-
 
 using recv_t = uint8_t;
 using tc_t = uint16_t;
@@ -72,8 +78,7 @@ int main(int argc, char ** argv)
 	}
 	return 4;
 #endif
-	
-	
+
 	std::vector<std::pair<recv_t, std::future<tc_t>>> v;
 
 	for (recv_t u = 0; u < 255; u ++)

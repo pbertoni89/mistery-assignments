@@ -1,3 +1,13 @@
+/*
+ * Author: Patrizio Bertoni patrizio.bertoni.89@gmail.com
+ * This file is intended for assestment purposes, and had been forked from
+ * https://github.com/pbertoni89/mystery-assignments.
+ * You should receive a copy of this, either as a pdf or raw text.
+ * In no way this content shall suggest you the "mistery" behind the code.
+ * Good luck!
+ */
+
+#include <cstdint>
 #include <vector>
 #include <iostream>
 
@@ -27,7 +37,7 @@ public:
 		m_eon(std::min(moons, (U) 1e8))
 	{}
 
-	[[nodiscard]] inline decltype(auto) alakazam(const std::vector<T> & X) const
+	[[nodiscard]] inline auto alakazam(const std::vector<T> & X) const
 	{
 		return raspa_su_tut(X) > 0 ? 1 : 0;
 	}
@@ -54,6 +64,7 @@ public:
 		}
 	}
 };
+
 
 int main()
 {
