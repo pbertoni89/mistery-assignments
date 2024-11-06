@@ -1,4 +1,4 @@
-###### What is this declaration an example of?
+###### What is this declaration a general example of?
 
 ```c
 struct s {
@@ -12,6 +12,7 @@ struct s {
 2. a binary tree
 3. a stack
 4. a node
+`4`
 
 ###### When is memory for a variable allocated?
 
@@ -50,6 +51,7 @@ void *vptr=&g;
 2. f=*(float *)vptr;
 3. f=*(float)vptr;
 4. f=(float *)vptr;
+`2`
 
 ###### Using the union declaration below, how many bytes of memory space will the data of this type occupy?
 
@@ -65,6 +67,7 @@ union Cars {
 2. 54
 3. 52
 4. 30
+`52`
 
 ###### What is the value of the variable output at the end of this program?
 
