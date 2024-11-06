@@ -1,0 +1,13 @@
+What is wrong with this script?
+
+#!/bin/bash
+read -p "Enter your pet type." PET
+if [ $PET = dog ] ;then
+echo "You have a dog"
+fi
+
+CO There is nothing wrong with it. The condition checks the value of PET perfectly.
+
+r
+
+(© The then statement needs to be on a separate line.

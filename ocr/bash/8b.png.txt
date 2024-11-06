@@ -1,0 +1,8 @@
+Which variable contains the number of arguments passed to a script from the command line?
+Os
+
+Ose
+
+Oe
+
+Ost

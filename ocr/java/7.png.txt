@@ -1,0 +1,9 @@
+What does this code print?
+
+System. out. print (“apple".compareTo("banana") );
+
+O false
+Oe
+Oa negative number
+
+© a positive number

@@ -1,0 +1,9 @@
+What is a static method?
+
+CO Static methods are called static because they always return None.
+
+CO Static methods can be bound to either a class or an instance of a class.
+
+CO Static methods can access and modify the state of a class or an instance of a class.
+
+© They serve mostly as utility methods or helper methods, since they can't access or modify a class's state.

@@ -1,0 +1,11 @@
+What is the output of this script?
+
+echo ${! fname}
+
+© john
+
+O Syntax error
+
+© thomas
+
+O btank

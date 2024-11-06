@@ -1,0 +1,10 @@
+Which sed options should you use to change the second-to-last instance of variable to rock so it would read: A
+constant is a variable that is a rock that isn't variable
+
+O s/variable/rock/*
+
+O s/\(.*\)variable\(.*variable\)/\Lrock\2/"
+
+O s/variable/rock/g*
+
+O s/(.*\)variable\ (.*variable\)/\1rock\2/*

@@ -1,0 +1,12 @@
+What is the output of this code?
+
+class Main {
+public static void main(String[] args) {
+String message = "Hello world!";
+String newMessage = message. substring(6,
++ message. substring(12, 6);
+System. out. print1n(newMessage) ;
+
+t
+
+12)

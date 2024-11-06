@@ -1,0 +1,5 @@
+O "world!worla!”
+O "worlditworld”
+© Artuntime exception is thrown.
+
+© The code does not compile.

@@ -1,0 +1,7 @@
+What is wrong with this script?
+
+CO There is nothing wrong with it. The condition checks the value of PET perfectly.
+© The then statement needs to be ona separate line.
+© It wilt fail if the user hits the Enter (Return) key without entering a pet name when prompt:
+
+CO Ifthe value of PET doesn't match dog, the script will return a nonzero status code.

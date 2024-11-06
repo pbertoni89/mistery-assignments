@@ -1,0 +1,9 @@
+What happens if you use set -e in a Bash script?
+
+CO [twill cause Bash to exit if local, declare, or typeset assignments return a nonzero status code.
+CO [twill cause Bash to exit if a Function or subshell returns a nonzero status code.
+
+© Itwill cause Bash to exit if a conditional returns a non-zero status code.
+
+© Lwiilcsuse Bash to ext fa command, ist of commands, compound command, or potentially a pipeline returns 3
+nonzero status code.

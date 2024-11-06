@@ -1,0 +1,7 @@
+What can you use to create new instances in Java?
+O private method
+© constructor
+
+O field
+
+© another instance

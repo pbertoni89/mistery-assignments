@@ -1,0 +1,10 @@
+Why would you use a mixin?
+© You use a mixin to allow a decorator to accept keyword arguments.
+
+You use a mixin to make sure that a class's attributes and methods don't interfere with global variables and
+ie) Functions.
+
+© YouUse a mixin to Force a function to accept an argument at runtime even i the argument wasnt included inthe
+function's definition.
+
+© I Fyou have many classes that all need to have the same Functionality, you'd use a mixin to define that Functionality.

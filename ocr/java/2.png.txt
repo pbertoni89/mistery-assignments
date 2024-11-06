@@ -1,0 +1,8 @@
+How can you achieve runtime polymorphism in Java?
+O method overloading
+
+O method calling
+
+O method overrunning
+
+© method overriding

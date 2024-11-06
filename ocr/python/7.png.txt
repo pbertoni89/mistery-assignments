@@ -1,0 +1,9 @@
+What is an abstract class?
+
+CO Abstract classes must be redefined any time an object is instantiated from them.
+
+© Abstract classes must inherit from concrete classes.
+
+© Anabstract class exists only so that other "concrete" classes can inherit from the abstract class.
+
+CO Anabstract class is the name for any class From which you can instantiate an object.

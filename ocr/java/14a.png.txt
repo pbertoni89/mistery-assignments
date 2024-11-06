@@ -1,0 +1,14 @@
+In this code, which of the following lines will NOT compile?
+
+byte b2 = 24;
+byte b3 = bl+b2;
+
+1: short sl = 42;
+
+2: short s2 = 24;
+3: short s3 = sl+s2;
+4: byte bl = 42;
+
+5:
+
+6:

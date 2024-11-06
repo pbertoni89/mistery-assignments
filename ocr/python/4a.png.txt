@@ -1,0 +1,8 @@
+What is the correct syntax For replacing the item found at this list's first index with the string orange?
+
+my list = [2, ‘apple’, 3.5]
+
+§ my_list[1] = ‘orange’
+* my_list['orange'] = 1
+* my_list[1] == ‘orange’
+* orange = my_list[1]

@@ -1,0 +1,6 @@
+What is a base case in a recursive function?
+* the base case is passed in as an argument to a function whose body makes use of recursion
+* the base case is similar to a base class, in that it can be inherited by another object
+* a base case is the condition that allows the algorithm to stop recursing. It's usualy a problem thats small enough to
+solve directly
+* the base case is the summary of the overall problem that needs to be solved

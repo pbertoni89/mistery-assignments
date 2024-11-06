@@ -1,0 +1,8 @@
+What would this expression return?
+
+oO [('Freshman', ‘Sophomore’, ‘Junior’, ‘Senior'), (2019, 2020, 2021, 2022)]
+
+oO [(2019, 'Freshman'), (2020, ‘Sophomore'), (2021, ‘Junior'), (2022, 'Senior')]
+OL Freshman', 2019), ('Sophomore', 2020), (‘Junior', 2021), (‘Senior', 2022)]
+
+© [(2019, 2020, 2021, 2022), (‘Freshman', ‘Sophomore’, ‘Junior’, ‘Senior')]

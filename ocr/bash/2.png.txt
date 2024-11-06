@@ -1,0 +1,9 @@
+When piping commands, what would be the benefit of using pipefail?
+CO It causes the pipe commands to fail if there is no data.
+CO It provides pipelined flow control to keep the piped data in place while moving throughout the script.
+
+© [eprovides a mechanism to store the output of each command in the pipeline so that you can replay the script From
+the point of Failure if there is a failure and ensure the scripts complete.
+
+© Te pibetine’s return status isthe value of the rightmost command to exit with a nonzero status, or zero all
+commands exit successfully.

@@ -1,0 +1,5 @@
+Given the string "strawberries" saved in a variable called fruit, what would Fruit.substring(2, 5) return?
+
+O rawb
+
+© traw

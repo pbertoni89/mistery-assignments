@@ -1,0 +1,7 @@
+When should you use a static method?
+© when your method is dependent on the specific instance that calls it
+CO when your method uses an object's instance variable
+
+© when your method is related to the object's characteristics
+
+© when you want your method to be available independently of class instances

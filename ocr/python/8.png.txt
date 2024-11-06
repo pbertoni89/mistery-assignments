@@ -1,0 +1,8 @@
+What is an instance method?
+CO Instance methods hold data related to the instance.
+
+@© Instance methods can modify the state of an instance or the state of its parent class.
+
+CO Aninstance method is a regular function that belongs to a class, but it must return None.
+
+© Aninstance method is any class method that doesn't take any arguments.

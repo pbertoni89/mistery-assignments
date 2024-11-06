@@ -1,0 +1,9 @@
+Which of the three methods will copy the directory named "photo dir" recursively from the user's home directory to
+Jbackups?
+
+cp -R '"~/photo dir" /backups # method 1
+cp -R ~"/photo dir" /backups # method 2
+cp -R ~/"photo dir" /backups # method 3
+
+None of the three methods will expand to the user's home directory. Only using "SHOME/photo dir" will be
+O crewestil

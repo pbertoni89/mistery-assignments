@@ -1,0 +1,9 @@
+What built
+
+list method would you use to remove items from a list?
+
+© det(my_list)
+© .delete() method
+O pop(my_list)
+
+© -pop() method

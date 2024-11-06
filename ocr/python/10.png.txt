@@ -1,0 +1,10 @@
+What is the term used to describe this code?
+
+count, fruit, price = (2, ‘apple', 3.5)
+
+O tuple re-duplication
+© tuple matching
+© tuple unpacking
+
+CO tuple assignment
+

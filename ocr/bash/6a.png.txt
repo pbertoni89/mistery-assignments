@@ -1,0 +1,10 @@
+What is the output of this script?
+
+#!/bin/bash
+fname=john
+john=thomas
+echo ${! fname}
+
+© john
+
+O Syntax error

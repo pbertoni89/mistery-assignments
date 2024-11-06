@@ -1,0 +1,6 @@
+What is the runtime of accessing a value in a dictionary by using its key?
+
+* O(n^2), also called quadratic time
+* O(n), also called linear time
+* O(log n), also called logarithmic time
+* O(1), also called constant time

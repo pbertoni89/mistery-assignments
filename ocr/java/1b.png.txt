@@ -1,0 +1,8 @@
+What is the result of this code?
+© [twill not compile.
+
+O “java.lang.Exception"
+
+© Itwill run and throw an exception.
+
+© It will show a stack trace with a runtime exception.

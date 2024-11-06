@@ -1,0 +1,6 @@
+Which of these is NOT a characteristic of namedtuples?
+
+$ No import is needed to use namedtuples because they are available in the standard library
+* You can assign a name to each ofthe namedtuple members and refer to them that way, similarly to how you would access keys in a dictionary
+* namedtuples are just as memory efficient as regular tuples
+* each member of a namedtuple object can be indexed to directly, just like in a regular tuple

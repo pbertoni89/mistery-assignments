@@ -1,0 +1,9 @@
+Which command is being run in this script to check if file.txt exists?
+
+O Musr/bin/[
+
+O /usr/bin/ TL
+
+O Msr/bin/test
+
+© the built-in [ command

@@ -1,0 +1,9 @@
+Which statement is NOT true?
+
+© An anonymous class may specify an abstract base class as its base type.
+
+© Ananonymous class does not require a zero-argument constructor.
+
+© Ananonymous class may specify both an abstract class and interface as base types.
+
+© Ananonymous class may specify an interface as its base type.

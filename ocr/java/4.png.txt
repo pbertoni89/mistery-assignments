@@ -1,0 +1,9 @@
+What code would you use to tell if "schwifty” is of type String?
+
+schwifty".getType() .equals("String")
+
+© “schwifty".getClass().getSimpleName() =:
+
+schwifty”.getType() == String
+
+© "schwifty" instanceof String

@@ -1,0 +1,9 @@
+Which sed options should you use to change the second-to-last instance of variable to rock so it would read: A
+constant is a variable that is a rock that isn't variable
+
+var="A constant is a variable that is a variable that isn't variable"
+echo "$var" | sed
+
+O s/variable/rock/*
+
+(o} s/\(.*\)variable\ (.*variable\)/\Lrock\2/'

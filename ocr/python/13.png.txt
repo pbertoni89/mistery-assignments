@@ -1,0 +1,8 @@
+What are attributes?
+
+CO Function arguments are called "attributes" in the context of class methods and instance methods.
+O Attributes are a way to hold data or describe a state for a class or an instance of a class.
+
+© Attributes are strings that describe characteristics of a class.
+
+CO Attributes are a long-form version of an if/else statement, used when testing for equality between objects.

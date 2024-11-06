@@ -1,0 +1,9 @@
+What is the output of this code?
+
+class Main {
+public static void main(String[] args) {
+String[] array = {"abe", "2", "10", "O"};
+Arrays. sort (array);
+System. out. printLn (Arrays. toString(array) ) ;
+}
+}

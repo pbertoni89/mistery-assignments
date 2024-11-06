@@ -1,0 +1,5 @@
+© "123451234512345"
+© anegative integer value
+© Nothing—this will not compile.
+
+© "12345100000"

@@ -1,0 +1,6 @@
+What happens when you use the built-in function any() on a list?
+
+* the any() function will randomly return any item from the list
+* the any() function returns a boolean value that answers the question "Are there any items in this list?"
+* the any() function returns True if any item in the list evaluates to True. Otherwise, it returns False
+* the any() function takes as arguments the list to check inside, and the item to check for. If "any" of the items in the list match the item to check for, the Function returns True

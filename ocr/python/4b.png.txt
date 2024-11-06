@@ -1,0 +1,9 @@
+What is the correct syntax For replacing the item Found at this list's First index with the string orange?
+
+Ony_list[1] = ‘orange'
+
+O my_list['orange'] = 1
+
+O my_list[1] == ‘orange’
+
+© orange = my_list[1]

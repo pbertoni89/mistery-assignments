@@ -1,0 +1,10 @@
+What is the output of this code?
+
+1: class Main {
+public static void main(String[] args) {
+List list = new ArrayList();
+List.add ("hello") ;
+list.add(2);
+System.out.print(List.get(®) instanceof Object);
+System.out.print(List.get(1) instanceof Integer);
+

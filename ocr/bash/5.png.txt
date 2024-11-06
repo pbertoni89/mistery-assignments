@@ -1,0 +1,11 @@
+What will be in out.txt?
+
+ls nonexistentfile | grep "No such file" > out.txt
+
+© It will be the contents of nonexistentfile.
+
+OC No such file
+
+O ls: cannot access nonexistentfile: No such file or directory
+
+QO Nothing, out.txt will be empty.

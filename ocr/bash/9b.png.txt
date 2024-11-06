@@ -1,0 +1,9 @@
+Which of the three methods will copy the directory named "photo dir" recursively from the user's home directory to
+Jbackups?
+
+© Only method 3 will expand "-/"to the user's home directory and then append the quoted directory name that
+includes a space.
+© Only method 2 will expand *-/"to the user's home directory and then append the quoted directory name that
+includes a space.
+© Luly method 1 will expand "~/"to the users home directory and then append the quoted directory name that
+includes a space.

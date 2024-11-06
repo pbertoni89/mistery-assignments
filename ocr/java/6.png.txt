@@ -1,0 +1,9 @@
+You have an ArrayList of names that you want to sort alphabetically. Which approach would NOT work?
+© names. sort (Comparator. comparing(String: :toString) )
+
+© Collections.sort (names)
+
+CO names. sort (List . DESCENDING)
+
+>) names.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect (Collectors. toList())
+
